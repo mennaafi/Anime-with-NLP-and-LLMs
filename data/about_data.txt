@@ -1,0 +1,14 @@
+
+all about data :
+
+
+subtitles = https://subtitlist.com/subs/naruto-season-1/english/2206507
+transcripts = https://www.kaggle.com/datasets/leonzatrax/naruto-ep-1-transcript
+classification = https://naruto.fandom.com/wiki/Special:BrowseData/Jutsu?limit=250&offset=0&_cat=Jutsu
+
+
+subtitles dataset : will be used in characher network and themes classification since it's big and contains all episodes.
+transcripts dataset : its problem that it's small and  doesn't contain all episodes , will be used in chatbot.
+classification dataset : will be scrapped , will be used to classiy ninja attacks that are 3 categories (ninjutsu, genjutsu and taijutsu)
+- jutsus -->  refers to ninja attacks
+
