@@ -5,8 +5,6 @@ huggingface_hub==0.24.5
 nltk==3.8.1
 gradio==4.36.1
 torch 
+spacy
+pyvis==0.3.2
 
-
-
-
- 
