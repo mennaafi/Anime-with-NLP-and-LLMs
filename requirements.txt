@@ -1,6 +1,5 @@
 transformers  
 huggingface_hub  
-streamlit 
 evaluate  
 pyvis  
 python-dotenv  
