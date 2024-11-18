@@ -11,3 +11,4 @@ nltk
 spacy
 beautifulsoup4  
 scikit-learn  
+torch
