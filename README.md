@@ -110,7 +110,7 @@ You can view the character network visualization   [here](character_network/naru
    - The model is configured to be loaded in a quantized format (using 4-bit representation) through the `BitsAndBytesConfig` class, which improves loading speed and reduces memory consumption. 
 
 3. **Fine-Tuning via PEFT (Parameter Efficient Fine-Tuning)** :  
-   - The training process incorporates `PEFT` techniques, specifically the `LORA` (Low-Rank Adaptation) approach. This allows for fewer parameters to be updated during training while still enabling the model to acquire specific behaviors and knowledge related to the Naruto character.  
+   - The training process incorporates `PEFT` techniques, specifically the `LoRa` (Low-Rank Adaptation) approach. This allows for fewer parameters to be updated during training while still enabling the model to acquire specific behaviors and knowledge related to the Naruto character.  
    - The `train` method fine-tunes the pre-trained base model using conversation transcripts from Naruto, adjusting its knowledge and responses to better emulate Naruto's speech and personality.  
 
 4. **Response Generation** :  
