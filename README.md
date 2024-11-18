@@ -60,7 +60,7 @@
 
 
 
- ###   In this project, we have created 4 models, each containing the code for a different aspect of the project 
+ ###   In this project, I have created 4 models, each containing the code for a different aspect of the project 
 
 - `theme_classifier` :  is designed to classify themes from textual subtitles dataset which contains all episodes , using `a zero-shot learning` approach. Leveraging the pre-trained `facebook/bart-large-mnli` model from Hugging Face's Transformers library, this class allows for the identification of various themes based on user-defined categories.
 
