@@ -2,7 +2,7 @@
 
 <div align="center">  
 
-# Naruto series with NLP an LLMs
+# Naruto series with NLP and LLMs
 
 ##### Welcome to the project ! , In this project, I will leverage AI, Large Language Models (LLMs), and Natural Language Processing (NLP) techniques to analyze and play with naruto anime series.
 
