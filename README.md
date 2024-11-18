@@ -8,6 +8,7 @@ Welcome to the project ! , In this project, I will leverage AI, Large Language M
 
 ![Project Overview](https://github.com/user-attachments/assets/3a275525-3005-4641-a5e1-a45ac20b6baf)  
  
+ 
   
 </div>
 
@@ -98,9 +99,22 @@ You can view the character network visualization   [here](character_network/naru
 
 
 
-- `character_chatbot` : 
+- `character_chatbot` :  is designed to create an interactive chatbot that mimics Naruto, a character from the anime "Naruto." The bot leverages advanced language models to generate responses that reflect Naruto's personality and speech patterns based on conversational history.  
 
 
+
+1. **Pre-Trained Model Utilization** :  
+   - The chatbot uses a pre-trained model (`meta-llama/Meta-Llama-3-8B-Instruct`) as its foundational layer. This model has already been trained on a diverse set of text data, allowing it to understand and generate coherent and contextually relevant language.  
+
+2. **Quantization for Efficiency** :  
+   - The model is configured to be loaded in a quantized format (using 4-bit representation) through the `BitsAndBytesConfig` class, which improves loading speed and reduces memory consumption. 
+
+3. **Fine-Tuning via PEFT (Parameter Efficient Fine-Tuning)** :  
+   - The training process incorporates `PEFT` techniques, specifically the `LORA` (Low-Rank Adaptation) approach. This allows for fewer parameters to be updated during training while still enabling the model to acquire specific behaviors and knowledge related to the Naruto character.  
+   - The `train` method fine-tunes the pre-trained base model using conversation transcripts from Naruto, adjusting its knowledge and responses to better emulate Naruto's speech and personality.  
+
+4. **Response Generation** :  
+   - When receiving a user message, the model generates responses by taking into account the current conversation's context. The `chat` method constructs the `prompt` incorporating this context, allowing the model to generate relevant replies reflective of Naruto's character traits.  
 
 
 
@@ -108,6 +122,20 @@ You can view the character network visualization   [here](character_network/naru
 
 
    
+
+
+
+
+
+
+
+### Install Dependencies :
+
+ > - Before running the code, make sure you have all the required dependencies installed. 
+
+```
+pip install -r requirements.txt  
+```
 
 
  
