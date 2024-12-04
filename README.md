@@ -136,6 +136,7 @@ You can view the character network visualization   [here](character_network/naru
 ```
 pip install -r requirements.txt  
 ```
+ > - then run script :
 
 
 ```
